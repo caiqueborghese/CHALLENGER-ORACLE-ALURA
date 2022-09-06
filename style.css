@@ -1,0 +1,439 @@
+.body {
+    background: #EFF1FA;
+}
+
+.logo {
+    display: inline;
+    position: absolute;
+    padding: 40px;
+    left: 50px
+}
+
+.text-main {
+    position: absolute;
+    width: 680px;
+    height: 288px;
+    left: 240px;
+    top: 168px;
+
+    color: #0A3871;
+    font-family: 'Inter';
+    font-style: normal;
+    line-height: 150%;
+    font-weight: 400;
+    font-size: 32px;
+
+    border: none;
+    outline: none;
+    background: transparent;
+    resize: none;
+}
+
+.button-criptografar {
+    display: inline;
+    top: 550px;
+    left: 235px;
+    position: absolute;
+
+    height: 60px;
+    width: 320px;
+
+    background: #0A3871;
+    color:#EFF1FA;
+    border: none;
+    border-radius: 24px;
+    font-weight: bold;
+
+    cursor: pointer;
+    transition: 1s all;
+
+    font-family: 'Inter';
+    font-style: normal;
+    line-height: 150%;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+.button-criptografar:hover {
+    transform: scale(1.0);
+    background: #2C4462;
+}
+
+.button-descriptografar {
+    display: inline;
+    top: 550px;
+    left: 580px;
+    position: absolute;
+
+    height: 60px;
+    width: 320px;
+
+    background: transparent;
+    color: #EFF1FA;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    font-weight: bold;
+
+    cursor: pointer;
+    transition: 1s all;
+
+    font-family: 'Inter';
+    font-style: normal;
+    line-height: 150%;
+    font-weight: 400;
+    font-size: 20px;
+    color: #0A3871;
+}    
+
+.button-descriptografar:hover {
+    transform: scale(1.0);
+    background: #FFFFFF;
+}
+
+.text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #0A3871;
+
+    position: absolute;
+    width: 250px;
+    height: 540px;
+    top: 30px;
+    left: 1000px;
+
+    padding: 30px;
+
+    resize: none;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+
+.backgroundimg {
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    top: 200px;
+    left: 1030px;
+    
+
+}
+
+.button-copy {
+    width: 270px;
+    height: 60px;
+    
+    color: #0A3871;
+    background-color: transparent;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    
+    display: inline;
+    position: absolute;
+    left: 1020px;
+    top: 550px;
+
+    cursor: pointer;
+    transition: 1s all;
+
+    font-family: 'Inter';
+    font-style: normal;
+    line-height: 150%;
+    font-weight: 400;
+    font-size: 20px;
+    color: #0A3871;
+}
+
+.button-copy:hover {
+    transform: scale(1.0);
+    background: #EFF1FA;
+}
+
+.alert-text {
+    display: inline;
+    position: absolute;
+
+    color: #495057;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    opacity: 0.8;
+    bottom: 115px;
+    left: 0.8;
+    margin: 0 260px 0px;
+    resize: none;
+}
+
+.alert {
+    position: absolute;
+    display: inline;
+    bottom: 120px;
+    left: 240px;
+}
+
+footer {
+    display: inline;
+    position: absolute;
+    margin: 10px;
+    bottom: 0;
+    left: 10px;
+    top: 540px;
+}        
+  
+@media (max-width: 812px) {
+    .logo {
+        display: inline;
+        position: absolute;
+        padding: 30px;
+        left: -10px;
+        top: -10px;
+
+        width: 30px;
+        height: 30px;
+    }
+    
+    .text {
+       display: inline;
+       flex-direction: column;
+       align-items: flex-start;
+       padding: 32px;
+       gap: 32px;
+
+       position: absolute;
+       width: 250px;
+       height: 150px;
+       left: 470px;
+    }
+    
+    .button-criptografar {
+        display: inline;
+        flex-direction: row;
+        align-items: flex-start;
+
+        height: 70px;
+        width: 200px;
+        left: 30px;
+        top: 250px;
+    }
+    
+    .button-criptografar:hover {
+        transform: scale(1.0);
+        background: #2C4462;
+    }
+    
+    .button-descriptografar {
+        display: inline;
+        flex-direction: row;
+        align-items: flex-start;
+
+        width: 200px;
+        height: 70px;
+        left: 235px;
+        top: 250px;
+    }    
+    
+    .button-descriptografar:hover {
+        transform: scale(1.0);
+        background: #FFFFFF;
+    }
+    
+    .alert-text {
+        display: inline;
+        position: absolute;
+       
+        width: 10px;
+        height: 18px;
+        left: 60px;
+        top: 330px;
+
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    
+    .backgroundimg {
+        position: absolute;
+        width: auto;
+        height: auto;
+        top: auto;
+        left: auto;
+    }
+
+    .alert {
+        display: inline;
+        position: absolute;
+    
+        left: 35px;
+        top: 333px;
+    }
+    
+    .button-copy {
+        display: inline;
+        flex-direction: row;
+
+        width: 270px;
+        height: 70px;
+        left: 495px;
+        top: 250px;
+    }
+    
+    .button-copy:hover {
+        transform: scale(1.0);
+        background: #EFF1FA;
+    }
+    
+    .alert-text {
+        display: inline;
+        position: absolute;
+    
+        color: #495057;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        opacity: 0.8;
+        bottom: 80px;
+        left: 0.8;
+        margin: 0 260px 0px;
+    }
+    
+    footer {
+        display: inline-block;
+        position: absolute;
+        margin: 10px;
+        bottom: 0;
+        left: 735px;
+        top: 325px;
+    }
+}
+
+@media (max-width: 600px)  {
+    .logo {
+        display: inline-block;
+        position: absolute;
+        padding: 30px;
+        top: 10px
+    }
+
+    .text {
+       display: inline;
+       flex-direction: column;
+       align-items: flex-start;
+       padding: 32px;
+       gap: 32px;
+
+       position: absolute;
+       width: 327px;
+       height: 186px;
+       left: 105px;
+       top: 700px;   
+    }
+
+    .button-criptografar {
+        display: inline;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 32px;
+        gap: 8px;
+
+        width: 390px;
+        height:80px;
+        left: 105px;
+        top: 525px;
+    }
+
+    .button-criptografar:hover {
+        transform: scale(1.0);
+        background: #2c4462;
+    }
+
+    .button-descriptografar {
+        display: inline;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 32px;
+        gap: 8px;
+        
+        width: 390px;
+        height: 80px;
+        left: 105px;
+        top: 610px;
+    }
+
+    .button-descriptografar:hover {
+        transform: scale(1.0);
+        background: #FFFFFF;
+    }
+
+    .alert-text {
+        display: inline;
+        position: absolute;
+        
+        width: 228px;
+        height: 18px;
+        left: 130px;
+        top: 500px;
+
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .alert {
+        display: inline;
+        position: absolute;
+        
+        left: 110px;
+        top: 501px;
+    }
+
+    .button-copy {
+        display: inline;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 32px;
+        gap: 8px;
+                
+        width: 390px;
+        height: 80px;
+        left: 105px;
+        top: 960px;
+    }
+
+    .button-copy:hover {
+        transform: scale(1.0);
+        background: #FFFFFF;
+    }
+
+    .text-main {
+        display: inline;
+        position: absolute;
+        width: 343px;
+        height: 48px;
+        left: 90px;
+        top: 152px;
+
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+    }
+
+    footer {
+        display: inline-block;
+        position: absolute;
+        padding: 30px;
+        top: -30px;
+        left: 500px;
+    }
+
+}
