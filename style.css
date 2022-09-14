@@ -249,7 +249,7 @@ footer {
        
         width: 10px;
         height: 18px;
-        left: 60px;
+        left: 80px;
         top: 330px;
 
         font-family: "Inter";
@@ -259,11 +259,7 @@ footer {
     }
     
     .backgroundimg {
-        position: absolute;
-        width: auto;
-        height: auto;
-        top: auto;
-        left: auto;
+        display: none;
     }
 
     .alert {
